@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{daebd192-ee97-40b3-84eb-673d6c636232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hook">
+      <UniqueIdentifier>{c6e769d5-3d45-42fa-98c6-4b421accf3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hook\Minhook">
+      <UniqueIdentifier>{77584811-bb5b-4487-922f-865112ee8408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hook\Minhook\include">
+      <UniqueIdentifier>{0b49bf49-e7a4-4163-a7eb-8a3527863bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hook\Minhook\src">
+      <UniqueIdentifier>{9b7a5592-f2f9-4cad-9695-469851355566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hook\Minhook\src\hde">
+      <UniqueIdentifier>{a8433c43-9953-4dce-b551-1a9911258532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libraries">
+      <UniqueIdentifier>{f0cb6cb1-3938-4a01-8c40-311667fdaffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libraries\xorstr">
+      <UniqueIdentifier>{1d26eaf2-f1d6-4e49-bf75-34840620819b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libraries\xorstr\include">
+      <UniqueIdentifier>{e7555ab3-cf59-4c8b-8717-edbaf9a88b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libraries\imgui">
+      <UniqueIdentifier>{91e6039b-dc87-4019-869f-7d86fcbdbdfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook\DX.cpp">
+      <Filter>Source\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook\Minhook\src\hde\hde32.c">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook\Minhook\src\hde\hde64.c">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook\Minhook\src\buffer.c">
+      <Filter>Source\Hook\Minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook\Minhook\src\hook.c">
+      <Filter>Source\Hook\Minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hook\Minhook\src\trampoline.c">
+      <Filter>Source\Hook\Minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui_demo.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui_draw.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui_impl_dx9.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui_impl_win32.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui_tables.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Libraries\imgui\imgui_widgets.cpp">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Includes.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\DX.h">
+      <Filter>Source\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\include\MinHook.h">
+      <Filter>Source\Hook\Minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\hde\hde32.h">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\hde\hde64.h">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\hde\pstdint.h">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\hde\table32.h">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\hde\table64.h">
+      <Filter>Source\Hook\Minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\buffer.h">
+      <Filter>Source\Hook\Minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hook\Minhook\src\trampoline.h">
+      <Filter>Source\Hook\Minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\xorstr\include\xorstr.h">
+      <Filter>Source\Libraries\xorstr\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imconfig.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imgui.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imgui_impl_dx9.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imgui_impl_win32.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imgui_internal.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imstb_rectpack.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imstb_textedit.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Libraries\imgui\imstb_truetype.h">
+      <Filter>Source\Libraries\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
